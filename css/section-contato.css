@@ -1,0 +1,209 @@
+/*		Default Layout:992px. 
+		Gutters:24px.
+		Outer margins:48px.
+		Leftover space for scrollbars @1024px:32px.
+-------------------------------------------------------------------------------
+cols		1		2		3		4		5		6		7		8		9		10
+px			68		160		252		344		436		528		620		712		804		896		*/
+
+#section-contato{ }
+
+#section-contato #title{ font-size: 32px; font-weight: bold; text-transform: uppercase; margin: 10px 0px 15px 0px; float:left; }
+#section-contato #titleSub{ font-size: 12px; text-transform: uppercase; margin: 21px 0px 15px 0px; float:right; color: #000; }
+
+#section-contato #content{ clear:both; }
+
+#section-contato #content #left{ float: left; width: 30%; overflow: hidden;  }
+#section-contato #content #left #title{ font-size: 14px; font-weight: bold; text-transform: uppercase; margin: 10px 0px 15px 0px; float:none; }
+#section-contato #content #left #texto{ color:#000; background:#fcd07f; padding:15px; }
+
+#section-contato #content #left #error{ color:#fff; background:#e21414; padding:15px; margin:10px 0px 0px 0px; text-transform: none; display: none;  }
+#section-contato #content #left #error #title{ padding: 0px; margin: 0px 0px 10px 0px; font-size: 14px; text-align: center; text-transform: none; }
+#section-contato #content #left #error ul{ margin: 0px 20px 0px 20px; }
+#section-contato #content #left #error ul li{ display: block; }
+
+#section-contato #content #left #fail{ color:#fff; background:#e21414; padding:15px; margin:10px 0px 0px 0px; text-transform: none; display: none;  }
+#section-contato #content #left #fail #title{ padding: 0px; margin: 0px 0px 10px 0px; font-size: 14px; text-align: center; text-transform: none; }
+#section-contato #content #left #fail #code{ display:none; }
+
+#section-contato #content #left #success{ color:#fff; background:#24ce0a; padding:15px; margin:10px 0px 0px 0px; text-transform: none; display: none; }
+#section-contato #content #left #success #title{ padding: 0px; margin: 0px 0px 0px 0px; font-size: 14px; text-align: center; text-transform: none; }
+
+
+
+#section-contato #content #right{  float: right; width: 66%; overflow: hidden;  }
+#section-contato #content #right #texto{ margin: 0px 0px 0px 0px;  color:#000;  background:#fcd07f; padding:15px; overflow: hidden; }
+
+#section-contato #content #right #texto #form_contato{  }
+
+#section-contato #content #right #texto #form_contato #subject{ width: 40%; float:left; }
+#section-contato #content #right #texto #form_contato #inputs{ width: 40%; float: left; }
+#section-contato #content #right #texto #form_contato #message{ width: 52%;  float:right; }
+#section-contato #content #right #texto #form_contato #send{ clear:both; float:right; margin: 10px 0px 0px 0px; color:#fff; background:#770206; padding:5px; width: 75px; text-transform: uppercase; text-align: center; border: none; }
+#section-contato #content #right #texto #form_contato #loader{ float:right; margin: 15px 10px 0px 0px; display:none; }
+
+
+#section-contato #content #right #texto #form_contato #subject select{ width: 100%; padding: 5px; color: #fff; font-family: arial, sans-serif; text-transform: uppercase; background: url(../image/icons/bt_listbox_01.jpg) no-repeat right #770206; overflow: hidden; line-height: 1; border: 0; border-radius: 0; -webkit-appearance: none; }
+#section-contato #content #right #texto #form_contato #subject select option{  }
+#section-contato #content #right #texto #form_contato #inputs input{ width: 100%; padding: 5px; color: #333; font-family: arial, sans-serif; text-transform: uppercase; background: #fff; margin: 5px 0 0 0; border: 1px solid #DEDEDE;  }
+#section-contato #content #right #texto #form_contato #message textarea{ width: 100%; padding: 5px; color: #333; font-family: arial, sans-serif; text-transform: uppercase; background: #FFF; float: right; height: 120px; border: 1px solid #DEDEDE; }
+		
+/*		Tablet Layout:768px.
+		Gutters:24px.
+		Outer margins:28px.
+		Inherits styles from:Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	#section-contato{ }
+
+	#section-contato #title{ }
+	#section-contato #titleSub{ }
+	
+	#section-contato #content{ }
+	
+	#section-contato #content #left{ }
+	#section-contato #content #left #title{ }
+	#section-contato #content #left #texto{ }
+	
+	#section-contato #content #left #error{ }
+	#section-contato #content #left #error #title{  }
+	#section-contato #content #left #error ul{ }
+	#section-contato #content #left #error ul li{ }
+	
+	#section-contato #content #left #fail{ }
+	#section-contato #content #left #fail #title{ }
+	#section-contato #content #left #fail #code{ }
+	
+	#section-contato #content #left #success{ }
+	#section-contato #content #left #success #title{ }
+	
+	
+	
+	#section-contato #content #right{ }
+	#section-contato #content #right #texto{ }
+	
+	#section-contato #content #right #texto #form_contato{  }
+	
+	#section-contato #content #right #texto #form_contato #subject{  }
+	#section-contato #content #right #texto #form_contato #inputs{  }
+	#section-contato #content #right #texto #form_contato #message{ }
+	#section-contato #content #right #texto #form_contato #send{ }
+	#section-contato #content #right #texto #form_contato #loader{  }
+	
+	
+	#section-contato #content #right #texto #form_contato #subject select{   }
+	#section-contato #content #right #texto #form_contato #subject select option{  }
+	#section-contato #content #right #texto #form_contato #inputs input{    }
+	#section-contato #content #right #texto #form_contato #message textarea{   }
+
+
+}
+
+/*		
+	Mobile Layout:480px.
+	Gutters:24px.
+	Outer margins:22px.
+	Inherits styles from:Default Layout
+*/
+
+@media only screen and (max-width:767px) {
+	#section-contato{ }
+
+	#section-contato #title{ }
+	#section-contato #titleSub{ display:none; }
+	
+	#section-contato #content{ }
+	
+	#section-contato #content #left{ width: 100%; float: none; margin: 0px 0px 10px 0px; }
+	#section-contato #content #left #title{ }
+	#section-contato #content #left #texto{ }
+	
+	#section-contato #content #left #error{ }
+	#section-contato #content #left #error #title{  }
+	#section-contato #content #left #error ul{ }
+	#section-contato #content #left #error ul li{ }
+	
+	#section-contato #content #left #fail{ }
+	#section-contato #content #left #fail #title{ }
+	#section-contato #content #left #fail #code{ }
+	
+	#section-contato #content #left #success{ }
+	#section-contato #content #left #success #title{ }
+	
+	
+	
+	#section-contato #content #right{ width: 100%; float: none; }
+	#section-contato #content #right #texto{ }
+	
+	#section-contato #content #right #texto #form_contato{ font-size:10px; }
+	
+	#section-contato #content #right #texto #form_contato #subject{  }
+	#section-contato #content #right #texto #form_contato #inputs{  }
+	#section-contato #content #right #texto #form_contato #message{ }
+	#section-contato #content #right #texto #form_contato #send{ }
+	#section-contato #content #right #texto #form_contato #loader{  }
+	
+	
+	#section-contato #content #right #texto #form_contato #subject select{ font-size: 10px;  }
+	#section-contato #content #right #texto #form_contato #subject select option{ font-size: 10px;  }
+	#section-contato #content #right #texto #form_contato #inputs input{ font-size: 10px;   }
+	#section-contato #content #right #texto #form_contato #message textarea{  font-size: 10px;  }
+	
+
+}
+
+/*		
+	Wide Mobile Layout:480px.
+	Gutters:24px.
+	Outer margins:22px.
+	Inherits styles from:Default Layout, Mobile Layout.
+*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+	#section-contato{ }
+
+	#section-contato #title{ }
+	#section-contato #titleSub{ display:none; }
+	
+	#section-contato #content{ }
+	
+	#section-contato #content #left{ width: 100%; float: none; margin: 0px 0px 10px 0px; }
+	#section-contato #content #left #title{ }
+	#section-contato #content #left #texto{ }
+	
+	#section-contato #content #left #error{ }
+	#section-contato #content #left #error #title{  }
+	#section-contato #content #left #error ul{ }
+	#section-contato #content #left #error ul li{ }
+	
+	#section-contato #content #left #fail{ }
+	#section-contato #content #left #fail #title{ }
+	#section-contato #content #left #fail #code{ }
+	
+	#section-contato #content #left #success{ }
+	#section-contato #content #left #success #title{ }
+	
+	
+	
+	#section-contato #content #right{ width: 100%; float: none; }
+	#section-contato #content #right #texto{ }
+	
+	#section-contato #content #right #texto #form_contato{ font-size:10px; }
+	
+	#section-contato #content #right #texto #form_contato #subject{  }
+	#section-contato #content #right #texto #form_contato #inputs{  }
+	#section-contato #content #right #texto #form_contato #message{ }
+	#section-contato #content #right #texto #form_contato #send{ }
+	#section-contato #content #right #texto #form_contato #loader{  }
+	
+	
+	#section-contato #content #right #texto #form_contato #subject select{ font-size:10px; }
+	#section-contato #content #right #texto #form_contato #subject select option{ font-size:10px; }
+	#section-contato #content #right #texto #form_contato #inputs input{ font-size:10px; }
+	#section-contato #content #right #texto #form_contato #message textarea{  font-size:10px; }
+	
+
+}

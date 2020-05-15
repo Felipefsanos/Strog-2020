@@ -1,0 +1,435 @@
+/*		Default Layout:992px. 
+		Gutters:24px.
+		Outer margins:48px.
+		Leftover space for scrollbars @1024px:27px.
+-------------------------------------------------------------------------------
+cols		1		2		3		4		5		6		7		8		9		10
+px			68		160		252		344		436		528		620		712		804		896		*/
+.deactive{ display:none; }
+
+#section-cardapio{}
+
+#section-cardapio #title{ font-size: 32px; font-weight: bold; text-transform: uppercase; margin: 10px 0px 15px 0px; float:left; }
+#section-cardapio #titleSub{ font-size: 12px; text-transform: uppercase; margin: 21px 0px 15px 0px; float:right; color: #000; }
+
+#section-cardapio #content{ clear:both; }
+
+#section-cardapio #content #left{ float: left; width: 100px; overflow: hidden; }
+
+#section-cardapio #content #left #menu{  width: 100%; background: #d37302; }
+#section-cardapio #content #left #menu ul{ margin: 0 auto; width: 100%; text-align:left; }
+#section-cardapio #content #left #menu ul li{ text-align: center; border-bottom: 1px solid #770206; margin: 0px 0px 0px 0px; padding: 10px 0px 10px 0px; width: 100%; font-size: 12px; }
+.selectMenu{ background: #f7951e; }
+#section-cardapio #content #left #menu ul li a{ color:#fff; text-transform:uppercase; font-weight:bold; }
+#section-cardapio #content #left #menu ul li a:hover{ color:#000; }
+#section-cardapio #content #left #menu ul li a img{  width: 100%; height:auto; max-width:50px; max-height:50px; }
+#section-cardapio #content #left #menu ul li a span{ display: block; }
+#section-cardapio #content #left #menu ul li:last-child{ border-bottom: 0px solid #770206; }
+#section-cardapio #content #left #menu #title { display:none; float: none; text-align: center; font-size: 14px; margin: 0px; padding: 5px; background: #f7951e; color: #fff; }
+
+
+
+#section-cardapio #content #right{  float: right; width: 790px; overflow: hidden; }
+
+#section-cardapio #content #right #thumbs{  }
+
+#section-cardapio #content #right #thumbs ul{ text-align: left; }
+#section-cardapio #content #right #thumbs ul li{ width:250px; height:170px; margin: 5px 5px 5px 5px; text-align: left; } 
+
+#section-cardapio #content #right #thumbs ul li #thumbs-left{ float:left; width:50%; height:100%; background:#f7951e; }
+#section-cardapio #content #right #thumbs ul li #thumbs-left a #thumb{ width:100%; @height:131px; height:100%; background:#e0e0e0; -webkit-background-size: cover; -o-background-size: cover; -khtml-background-size: cover; -moz-background-size: cover; }
+#section-cardapio #content #right #thumbs ul li #thumbs-left a #social{ width:21px; height:21px; margin:6px 0 0 5px; display:none; }
+
+#section-cardapio #content #right #thumbs ul li #thumbs-right { float:right; width:50%; height:100%; background:#fff; }
+#section-cardapio #content #right #thumbs ul li #thumbs-right a { }
+#section-cardapio #content #right #thumbs ul li #thumbs-right a #title{ font-size:14px; text-transform:uppercase; font-weight:bold; margin: 5px 5px 5px 5px; color:#770206; }
+#section-cardapio #content #right #thumbs ul li #thumbs-right a:hover #title{ color:#000; }
+#section-cardapio #content #right #thumbs ul li #thumbs-right a #subTitle{ font-size:11px; color:#fff; text-transform: uppercase; font-weight: bold; margin: 0px 0px 5px 0px; clear: both; background: #770206; padding: 5px; }
+#section-cardapio #content #right #thumbs ul li #thumbs-right a #info{ font-size:11px; color:#000; margin: 0px 5px 0px 5px; clear: both; }
+#section-cardapio #content #right #thumbs ul li #thumbs-right a #more{ background: #F7951E; font-weight: bold; text-transform: uppercase; overflow: auto;   position: absolute; bottom: 0px; right: 0px; }
+#section-cardapio #content #right #thumbs ul li #thumbs-right a #more span{ margin: 5px; display: block; }
+
+#section-cardapio #content #right #thumbs ul li #thumbs-right a:hover #info{ color:#770206; }
+
+
+#section-cardapio #content #right #thumbs ul li a div{}
+
+#section-cardapio #content #right #item{  }
+
+#section-cardapio #content #right #item #bar-top{ overflow: hidden; }
+
+#section-cardapio #content #right #item #bar-top #bt-back{ float: left; background:#770206; padding:5px; }
+#section-cardapio #content #right #item #bar-top #bt-back a{ color:#fff; text-transform:uppercase; font-weight:bold; }
+
+#section-cardapio #content #right #item #bar-top #breadcrumb{ float: right; text-transform: uppercase; }
+#section-cardapio #content #right #item #bar-top #breadcrumb ul{}
+#section-cardapio #content #right #item #bar-top #breadcrumb ul li{ font-weight:bold; display: inline; white-space: nowrap; }
+#section-cardapio #content #right #item #bar-top #breadcrumb ul li a{ font-weight:normal; }
+#section-cardapio #content #right #item #bar-top #breadcrumb ul li a:hover{ color: #000; }
+#section-cardapio #content #right #item #bar-top #breadcrumb ul li:after { content: " \00b7"; font-size:16px; font-weight:bold; color:#000; }
+
+#section-cardapio #content #right #item #content-item{ clear:both; margin: 20px 0px 0px 0px; overflow:hidden; }
+
+#section-cardapio #content #right #item #content-item #content-item-box{ background:#770206; height: 257px; }
+
+#section-cardapio #content #right #item #content-item #content-item-box #content-item-left{ float: left; width: 386px; height: 100%; }
+#section-cardapio #content #right #item #content-item #content-item-box #content-item-left #thumb{ width: 386px; height: 257px; background:#e0e0e0;  -webkit-background-size: cover; -o-background-size: cover; -khtml-background-size: cover; -moz-background-size: cover;  }
+#section-cardapio #content #right #item #content-item #content-item-box #content-item-left #social{ width: 29px; height: 29px; position: relative; top: -35px; left: 5px; }
+
+#section-cardapio #content #right #item #content-item #content-item-box #content-item-right{ float:right; width: 384px; overflow:hidden; color:#fff; margin: 0px 10px 0px 10px;  }
+
+#section-cardapio #content #right #item #content-item #content-item-box #content-item-right_bt{float: right; color: #fff; font-weight: bold; text-transform: uppercase; margin: 30px 10px; background: #f7951e; padding: 10px; border-radius: 15px; }
+
+#section-cardapio #content #right #item #content-item #content-item-box #content-item-right_bt #bt{ cursor: pointer; }
+
+#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #title{ font-size: 27px; font-weight: bold; text-transform: uppercase; margin: 10px 0px 10px 0px; }
+
+#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #info{ clear:both; }
+
+#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #options{ margin:10px 0px 0px 0px;}
+#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #options span{ display:block; font-weight:bold; }
+
+#section-cardapio #content #right #item #content-item #table-price{ clear:both; margin: 10px 0px 0px 0px; border: none; }
+#section-cardapio #content #right #item #content-item #table-price #info-size{ margin: 10px 0px 10px 0px; font-weight: bold; font-size: 14px; }
+#section-cardapio #content #right #item #content-item #table-price table{ width: auto; color: #fff; font-weight:bold; margin: 0px 0px 10px 0px; }
+#section-cardapio #content #right #item #content-item #table-price table tr{ }
+#section-cardapio #content #right #item #content-item #table-price table tr td{ }
+#section-cardapio #content #right #item #content-item #table-price table tr td #title{ font-size: 14px; text-align: center; width: 100%; margin: 0px; color:#770206; }
+#section-cardapio #content #right #item #content-item #table-price table tr td #subtitle{ font-size: 12px; text-align: center; width: 100%; margin: 0px; }
+#section-cardapio #content #right #item #content-item #table-price table tr td #price{ font-size: 18px; text-align: center; width: 100%; margin: 0px; color:#770206; }
+#section-cardapio #content #right #item #content-item #table-price table tr td #points{ font-size: 12px; text-align: center; width: 100%; margin: 0px; }
+
+
+#section-cardapio #content #additions{ overflow:hidden; clear:both; font-weight:bold; padding: 20px 0px 0px 0px; }
+#section-cardapio #content #additions #title{ font-size: 20px; margin: 0px 0px 0px 0px; float:none; }
+#section-cardapio #content #additions ul{ margin: 0 auto;  background:#770206; padding: 15px; }
+#section-cardapio #content #additions ul li{ margin: 0px 0px 0px 10px; color:#fff; width: 130px; vertical-align:top; }
+#section-cardapio #content #additions ul li:first-child{ margin: 0px 0px 0px 22px; }
+#section-cardapio #content #additions ul li img{ float:left; margin: 0px 5px 0px 0px; }
+#section-cardapio #content #additions ul li #title{ font-size: 12px; margin: 0px 0px 0px 17px }
+#section-cardapio #content #additions ul li #price{ font-size: 12px; margin: 0px 0px 0px 17px; float:left; }
+
+#section-cardapio #content #additions ul .big{ width: 207px; }
+#section-cardapio #content #additions ul .big #title{  }
+#section-cardapio #content #additions ul .big #price{ float:left; margin: 0px 0px 0px 17px; }
+
+
+
+
+#section-cardapio #cardapio-completo #categoria #itens #item #item-preco table tr td #title{ font-size: 12px; text-align: center; width: 100%; margin: 0px; color:#770206; }
+#section-cardapio #cardapio-completo #categoria #itens #item #item-preco table tr td #subtitle{ font-size: 12px; text-align: center; width: 100%; margin: 0px; }
+#section-cardapio #cardapio-completo #categoria #itens #item #item-preco table tr td #price{ font-size: 12px; text-align: center; width: 100%; margin: 0px; color:#770206; }
+#section-cardapio #cardapio-completo #categoria #itens #item #item-preco table tr td #points{ font-size: 12px; text-align: center; width: 100%; margin: 0px; }
+
+/*		Tablet Layout:768px.
+		Gutters:24px.
+		Outer margins:28px.
+		Inherits styles from:Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+	#section-cardapio{}
+	
+	#section-cardapio #title{ margin: 10px 0px 15px 10px; }
+	#section-cardapio #titleSub{ margin: 21px 10px 15px 0px; }
+	
+	#section-cardapio #content{ }
+	
+	#section-cardapio #content #left{ width: 10%; }
+	
+	#section-cardapio #content #left #menu{ }
+	#section-cardapio #content #left #menu ul{ }
+	#section-cardapio #content #left #menu ul li{ }
+	#section-cardapio #content #left #menu ul li a{ font-size: 10px; }
+	#section-cardapio #content #left #menu ul li a:hover{ }
+	#section-cardapio #content #left #menu ul li a img{ }
+	#section-cardapio #content #left #menu ul li a span{ }
+	#section-cardapio #content #left #menu ul li:last-child{ }
+	#section-cardapio #content #left #menu #title { }
+	
+	#section-cardapio #content #right{ width: 89%; }
+	
+	#section-cardapio #content #right #thumbs{ }
+	
+	#section-cardapio #content #right #thumbs ul{ }
+	#section-cardapio #content #right #thumbs ul li{ width: 31%; } 
+	
+	#section-cardapio #content #right #thumbs ul li #thumbs-left{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-left a #thumb{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-left a #social{ }
+	
+	#section-cardapio #content #right #thumbs ul li #thumbs-right { }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a { }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a #title{ font-size: 14px; }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a:hover #title{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a #info{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a:hover #info{ }
+	
+	#section-cardapio #content #right #thumbs ul li a div{}
+	
+	#section-cardapio #content #right #item{ }
+	
+	#section-cardapio #content #right #item #bar-top{ }
+	
+	#section-cardapio #content #right #item #bar-top #bt-back{ }
+	#section-cardapio #content #right #item #bar-top #bt-back a{ }
+	
+	#section-cardapio #content #right #item #bar-top #breadcrumb{ }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul{}
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li{ }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li a{ }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li a:hover{ }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li:after { }
+	
+	#section-cardapio #content #right #item #content-item{ }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box{ height: 228px; }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-left{ width: 47%; }
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-left #thumb{ width: 100%; height: 100%; }
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-left #social{ }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right{ width: 50%; }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right_bt{float: right; color: #fff; font-weight: bold; text-transform: uppercase; margin: 30px 10px; background: #f7951e; padding: 10px; border-radius: 15px; }
+
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right_bt #bt{  }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #title{ font-size: 22px; margin: 10px 0px 10px 10px; }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #info{ margin: 10px 0px 10px 10px; }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #options{ font-size: 22px; margin: 10px 0px 10px 10px; font-size: 16px; }
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #options span{ }
+	
+	#section-cardapio #content #right #item #content-item #table-price{ }
+	#section-cardapio #content #right #item #content-item #table-price table{ }
+	#section-cardapio #content #right #item #content-item #table-price table tr{}
+	#section-cardapio #content #right #item #content-item #table-price table tr td{}
+	
+	
+	
+	#section-cardapio #content #additions{ }
+	#section-cardapio #content #additions #title{ }
+	#section-cardapio #content #additions ul{ }
+	#section-cardapio #content #additions ul li{ width: 15%; }
+	#section-cardapio #content #additions ul li:first-child{ margin: 0px 0px 0px 5px; }
+	#section-cardapio #content #additions ul li img{ }
+	#section-cardapio #content #additions ul li #title{ }
+	#section-cardapio #content #additions ul li #price{ }
+	
+	#section-cardapio #content #additions ul .big{ width: 23%; }
+	#section-cardapio #content #additions ul .big #title{  }
+	#section-cardapio #content #additions ul .big #price{ }
+
+}
+
+/*		
+	Mobile Layout:480px.
+	Gutters:24px.
+	Outer margins:22px.
+	Inherits styles from:Default Layout
+*/
+
+@media only screen and (max-width:767px) {
+
+	#section-cardapio{}
+	
+	#section-cardapio #title{ }
+	#section-cardapio #titleSub{ display:none; }
+	
+	#section-cardapio #content{ }
+	
+	#section-cardapio #content #left{ float: none; width: 100%; }
+	
+	#section-cardapio #content #left #menu{ }
+	#section-cardapio #content #left #menu ul{ margin: 0 0 0 0; }
+	#section-cardapio #content #left #menu ul li{ display: inline-block; width:13%; border: 0px; }
+	#section-cardapio #content #left #menu ul li a{ }
+	#section-cardapio #content #left #menu ul li a:hover{ }
+	#section-cardapio #content #left #menu ul li a img{ }
+	#section-cardapio #content #left #menu ul li a span{ display:none; }
+	#section-cardapio #content #left #menu ul li:last-child{ }
+	#section-cardapio #content #left #menu #title { display:block; }
+	
+	#section-cardapio #content #right{ float: none; width: 100%; margin: 5px 0px 0px 0px; }
+	
+	#section-cardapio #content #right #thumbs{ }
+	
+	#section-cardapio #content #right #thumbs ul{ }
+	#section-cardapio #content #right #thumbs ul li{ width: 100%; margin: 5px 0px 5px 0px; } 
+	
+	#section-cardapio #content #right #thumbs ul li #thumbs-left{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-left a #thumb{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-left a #social{ }
+	
+	#section-cardapio #content #right #thumbs ul li #thumbs-right { }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a { }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a #title{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a:hover #title{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a #info{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a:hover #info{ }
+	
+	#section-cardapio #content #right #thumbs ul li a div{}
+	
+	#section-cardapio #content #right #item{ margin: 10px 0px 0px 0px; }
+	
+	#section-cardapio #content #right #item #bar-top{ }
+	
+	#section-cardapio #content #right #item #bar-top #bt-back{ padding: 10px 0px 10px 0px; }
+	#section-cardapio #content #right #item #bar-top #bt-back a{ padding: 10px 10px 10px 10px; }
+	
+	#section-cardapio #content #right #item #bar-top #breadcrumb{ margin: 7px 0px 0px 0px; }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul{}
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li{ }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li a{ }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li a:hover{ }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li:after { }
+	
+	#section-cardapio #content #right #item #content-item{ }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box{ height: auto; }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-left{ width: 100%; height: auto; float:none; }
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-left #thumb{ width: 100%; height: 150px; }
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-left #social{ }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right{ float:none; margin: -20px 10px 0px 10px; padding: 0px 0px 20px 0px; width: 100%; }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right_bt{float: none; text-align: center; font-size: 16px;  margin: 0;  padding: 10px; border-radius: 0px; }
+
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right_bt #bt{ color:#fff; background: #820203; width: 200px; margin: 0 auto; padding: 15px; border-radius: 15px;  }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #title{ font-size:20px; }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #info{ }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #options{ }
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #options span{ }
+	
+	#section-cardapio #content #right #item #content-item #table-price{ text-align:center; }
+	#section-cardapio #content #right #item #content-item #table-price table{ margin: 0 auto; width: 90%; }
+	#section-cardapio #content #right #item #content-item #table-price table tr{}
+	#section-cardapio #content #right #item #content-item #table-price table tr td{}
+	
+	
+	
+	#section-cardapio #content #additions{  }
+	#section-cardapio #content #additions #title{ margin: 0px 0px 0px 10px; font-size:16px; }
+	#section-cardapio #content #additions ul{ margin-bottom: 10px; }
+	#section-cardapio #content #additions ul li{ margin: 5px 0px 0px 5px; width: auto; }
+	#section-cardapio #content #additions ul li:first-child{ margin: 5px 0px 0px 0px; }
+	#section-cardapio #content #additions ul li img{ }
+	#section-cardapio #content #additions ul li #title{ margin: 0px 20px 0px 0px; width:100%; white-space: normal; word-wrap: normal; }
+	#section-cardapio #content #additions ul li #price{ }
+	
+	#section-cardapio #content #additions ul .big{ }
+	#section-cardapio #content #additions ul .big #title{  }
+	#section-cardapio #content #additions ul .big #price{ }
+}
+
+/*		
+	Wide Mobile Layout:480px.
+	Gutters:24px.
+	Outer margins:22px.
+	Inherits styles from:Default Layout, Mobile Layout.
+*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+
+	#section-cardapio{}
+	
+	#section-cardapio #title{ }
+	#section-cardapio #titleSub{ display:none; }
+	
+	#section-cardapio #content{ }
+	
+	#section-cardapio #content #left{ float: none; width: 100%; }
+	
+	#section-cardapio #content #left #menu{ }
+	#section-cardapio #content #left #menu ul{ margin: 0 0 0 0; }
+	#section-cardapio #content #left #menu ul li{ display: inline-block; width:13%; border: 0px; }
+	#section-cardapio #content #left #menu ul li a{ }
+	#section-cardapio #content #left #menu ul li a:hover{ }
+	#section-cardapio #content #left #menu ul li a img{ }
+	#section-cardapio #content #left #menu ul li a span{ display:none; }
+	#section-cardapio #content #left #menu ul li:last-child{ }
+	#section-cardapio #content #left #menu #title { display:block; }
+	
+	#section-cardapio #content #right{ float: none; width: 100%; margin: 5px 0px 0px 0px; }
+	
+	#section-cardapio #content #right #thumbs{ }
+	
+	#section-cardapio #content #right #thumbs ul{ }
+	#section-cardapio #content #right #thumbs ul li{ width: 45%; margin: 5px 0% 5px 3.3%; } 
+	
+	#section-cardapio #content #right #thumbs ul li #thumbs-left{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-left a #thumb{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-left a #social{ }
+	
+	#section-cardapio #content #right #thumbs ul li #thumbs-right { }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a { }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a #title{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a:hover #title{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a #info{ }
+	#section-cardapio #content #right #thumbs ul li #thumbs-right a:hover #info{ }
+	
+	#section-cardapio #content #right #thumbs ul li a div{}
+	
+	#section-cardapio #content #right #item{ margin: 10px 0px 0px 0px; }
+	
+	#section-cardapio #content #right #item #bar-top{ }
+	
+	#section-cardapio #content #right #item #bar-top #bt-back{ padding: 10px 0px 10px 0px; }
+	#section-cardapio #content #right #item #bar-top #bt-back a{ padding: 10px 10px 10px 10px; }
+	
+	#section-cardapio #content #right #item #bar-top #breadcrumb{ margin: 7px 0px 0px 0px; }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul{}
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li{ }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li a{ }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li a:hover{ }
+	#section-cardapio #content #right #item #bar-top #breadcrumb ul li:after { }
+	
+	#section-cardapio #content #right #item #content-item{ }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box{ height: auto; }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-left{ width: 100%; height: auto; float:none; }
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-left #thumb{ width: 100%; height: 150px; }
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-left #social{ }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right{ float:none; margin: -20px 10px 0px 10px; padding: 0px 0px 20px 0px; width: 100%; }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right_bt{float: none; border-radius: 0px; }
+
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right_bt #bt{ color:#fff; background: #820203; width: 200px; margin: 0 auto; padding: 15px; border-radius: 15px;  }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #title{ font-size:20px; }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #info{ }
+	
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #options{ }
+	#section-cardapio #content #right #item #content-item #content-item-box #content-item-right #options span{ }
+	
+	#section-cardapio #content #right #item #content-item #table-price{ text-align:center; }
+	#section-cardapio #content #right #item #content-item #table-price table{ margin: 0 auto; width: 90%; }
+	#section-cardapio #content #right #item #content-item #table-price table tr{}
+	#section-cardapio #content #right #item #content-item #table-price table tr td{}
+	
+	#section-cardapio #content #additions{  }
+	#section-cardapio #content #additions #title{ margin: 0px 0px 0px 10px; font-size:16px; }
+	#section-cardapio #content #additions ul{ margin-bottom: 10px; }
+	#section-cardapio #content #additions ul li{ margin: 5px 0px 0px 5px; width: auto; }
+	#section-cardapio #content #additions ul li:first-child{ margin: 5px 0px 0px 0px; }
+	#section-cardapio #content #additions ul li img{ }
+	#section-cardapio #content #additions ul li #title{ margin: 0px 20px 0px 0px; width:100%; white-space: normal; word-wrap: normal; }
+	#section-cardapio #content #additions ul li #price{ }
+	
+	#section-cardapio #content #additions ul .big{ }
+	#section-cardapio #content #additions ul .big #title{  }
+	#section-cardapio #content #additions ul .big #price{ }
+
+}

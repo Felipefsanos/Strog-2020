@@ -1,0 +1,225 @@
+/*  Default Layout:992px. 
+  Gutters:24px.
+  Outer margins:48px.
+  Leftover space for scrollbars @1024px:32px.
+-------------------------------------------------------------------------------
+cols  1  2  3  4  5  6  7  8  9  10
+px   68  160  252  344  436  528  620  712  804  896  */
+
+body{ width:100%; font-family: arial, sans-serif; font-size:12px; color:#770206; margin:0px; }
+
+a:link{ color:#770206; text-decoration:none; border:none; }
+a:visited{ color:#770206; }
+a:hover{ color:#770206; }
+a:active{ color:#770206; }
+
+img{ border:none; }
+
+ul{ display:block; position:relative; margin:0px; padding:0px;  }
+ul li{ display: inline-block; position:relative; margin:0px; padding:0px; vertical-align: middle; list-style: none; }
+ 
+div{ position:relative; }
+
+.splash{ background:#770206; }
+#box{ width:100%; margin:0 auto; margin-top:100px; }
+#box #sub-box{ width:100%; background:none; overflow:hidden;  }
+#box #sub-box #box-logo{ text-align: center; }
+#box #sub-box #box-logo img{}
+#box #sub-box #box-tel{ text-align: center; margin-top:0px; overflow:hidden; background: #690505; }
+#box #sub-box #box-tel ul{ margin: 0 auto; }
+#box #sub-box #box-tel ul li{ padding:10px; margin:10px; max-width: 250px; }
+#box #sub-box #box-tel ul li a{ }
+#box #sub-box #box-tel ul li a:hover{ }
+#box #sub-box #box-tel ul li a h3{ color:#fff; padding:0; margin:0; line-height:inherit; font-size: 165%; text-transform:uppercase; }
+#box #sub-box #box-tel ul li a h4{ color:#d37302; padding:0; margin:0; line-height:inherit; text-transform:uppercase; }
+#box #sub-box #box-buttons{ text-align: center; margin-top:0px; overflow:hidden; }
+#box #sub-box #box-buttons .item{ }
+#box #sub-box #box-buttons .item a{ }
+#box #sub-box #box-buttons .item a .box{ }
+#box #sub-box #box-buttons .item a .box .title{ text-transform:uppercase; padding:0; margin:0; line-height:inherit; font-weight:bold; border-radius: 15px 15px 0px 0px; }
+#box #sub-box #box-buttons .item a .box .sub{ text-transform:uppercase; padding:0; margin:0; line-height:inherit; font-weight:bold; border-radius: 0px 0px 15px 15px; }
+#box #sub-box #box-buttons .item a:hover{ }
+#box #sub-box #box-buttons .item a:hover .box{ }
+#box #sub-box #box-buttons .item a:hover .box .title{ }
+#box #sub-box #box-buttons .item a:hover .box .sub{  }
+#box #sub-box #box-buttons .left{ background: #500303; padding: 15px; }
+#box #sub-box #box-buttons .left a{ }
+#box #sub-box #box-buttons .left a .box{  max-width: 500px; margin: 0 auto;   }
+#box #sub-box #box-buttons .left a .box .title{ font-size:300%; background: #fff; padding: 10px; }
+#box #sub-box #box-buttons .left a .box .sub{ background: #d37302; padding: 10px; color:#fff; }
+#box #sub-box #box-buttons .left a:hover{ }
+#box #sub-box #box-buttons .left a:hover .box{ }
+#box #sub-box #box-buttons .left a:hover .box .title{ background:#FCAE23; }
+#box #sub-box #box-buttons .left a:hover .box .sub{ }
+#box #sub-box #box-buttons .right{ background: #690505; padding: 15px; }
+#box #sub-box #box-buttons .right a{ }
+#box #sub-box #box-buttons .right a .box{ max-width: 350px; margin: 0 auto; }
+#box #sub-box #box-buttons .right a .box .title{ font-size:150%; background: #500303; padding: 10px; color:#fff;  }
+#box #sub-box #box-buttons .right a .box .sub{ background: #440202; padding: 10px; color:#fff; }
+#box #sub-box #box-buttons .right a:hover{ }
+#box #sub-box #box-buttons .right a:hover .box{ }
+#box #sub-box #box-buttons .right a:hover .box .title{ color:#FCAE23; }
+#box #sub-box #box-buttons .right a:hover .box .sub{ }
+/*
+#FCAE23 - #dc8d00 - #d37302
+
+#820203 - #690505
+*/
+
+/*  Tablet Layout:768px.
+  Gutters:24px.
+  Outer margins:28px.
+  Inherits styles from:Default Layout.
+-----------------------------------------------------------------
+cols  1   2   3   4   5   6   7   8
+px   68  160  252  344  436  528  620  712  */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.splash{}
+	#box{ margin-top:100px; }
+	#box #sub-box{  }
+	#box #sub-box #box-logo{ }
+	#box #sub-box #box-logo img{}
+	#box #sub-box #box-tel{ }
+	#box #sub-box #box-tel ul{}
+	#box #sub-box #box-tel ul li{ }
+	#box #sub-box #box-tel ul li a{ }
+	#box #sub-box #box-tel ul li a:hover{ }
+	#box #sub-box #box-tel ul li a h3{  }
+	#box #sub-box #box-tel ul li a h4{ }
+	#box #sub-box #box-buttons{  }
+	#box #sub-box #box-buttons .item{ }
+	#box #sub-box #box-buttons .item a{ }
+	#box #sub-box #box-buttons .item a .box{ }
+	#box #sub-box #box-buttons .item a .box .title{  }
+	#box #sub-box #box-buttons .item a .box .sub{ }
+	#box #sub-box #box-buttons .item a:hover{ }
+	#box #sub-box #box-buttons .item a:hover .box{ }
+	#box #sub-box #box-buttons .item a:hover .box .title{ }
+	#box #sub-box #box-buttons .item a:hover .box .sub{  }
+	#box #sub-box #box-buttons .left{ }
+	#box #sub-box #box-buttons .left a{ }
+	#box #sub-box #box-buttons .left a .box{  }
+	#box #sub-box #box-buttons .left a .box .title{  }
+	#box #sub-box #box-buttons .left a .box .sub{  }
+	#box #sub-box #box-buttons .left a:hover{ }
+	#box #sub-box #box-buttons .left a:hover .box{ }
+	#box #sub-box #box-buttons .left a:hover .box .title{  }
+	#box #sub-box #box-buttons .left a:hover .box .sub{ }
+	#box #sub-box #box-buttons .right{  }
+	#box #sub-box #box-buttons .right a{ }
+	#box #sub-box #box-buttons .right a .box{  }
+	#box #sub-box #box-buttons .right a .box .title{  }
+	#box #sub-box #box-buttons .right a .box .sub{  }
+	#box #sub-box #box-buttons .right a:hover{ }
+	#box #sub-box #box-buttons .right a:hover .box{ }
+	#box #sub-box #box-buttons .right a:hover .box .title{  }
+	#box #sub-box #box-buttons .right a:hover .box .sub{ }
+} 
+
+/*  
+ Mobile Layout:480px.
+ Gutters:24px.
+ Outer margins:22px.
+ Inherits styles from:Default Layout
+ 
+ //position:relative;
+*/
+
+@media only screen and (max-width:767px) {
+	.splash{}
+	#box{ margin-top:0; }
+	#box #sub-box{ margin-top:0%; }
+	#box #sub-box #box-logo{ }
+	#box #sub-box #box-logo img{}
+	#box #sub-box #box-tel{ }
+	#box #sub-box #box-tel ul{ margin: 0 auto; }
+	#box #sub-box #box-tel ul li{ margin:0px; }
+	#box #sub-box #box-tel ul li a{ }
+	#box #sub-box #box-tel ul li a:hover{ }
+	#box #sub-box #box-tel ul li a h3{  }
+	#box #sub-box #box-tel ul li a h4{ }
+	#box #sub-box #box-buttons{  }
+	#box #sub-box #box-buttons .item{ }
+	#box #sub-box #box-buttons .item a{ }
+	#box #sub-box #box-buttons .item a .box{ }
+	#box #sub-box #box-buttons .item a .box .title{  }
+	#box #sub-box #box-buttons .item a .box .sub{ }
+	#box #sub-box #box-buttons .item a:hover{ }
+	#box #sub-box #box-buttons .item a:hover .box{ }
+	#box #sub-box #box-buttons .item a:hover .box .title{ }
+	#box #sub-box #box-buttons .item a:hover .box .sub{  }
+	#box #sub-box #box-buttons .left{ }
+	#box #sub-box #box-buttons .left a{ }
+	#box #sub-box #box-buttons .left a .box{ max-width:none;  }
+	#box #sub-box #box-buttons .left a .box .title{ font-size: 250%; }
+	#box #sub-box #box-buttons .left a .box .sub{  }
+	#box #sub-box #box-buttons .left a:hover{ }
+	#box #sub-box #box-buttons .left a:hover .box{ }
+	#box #sub-box #box-buttons .left a:hover .box .title{  }
+	#box #sub-box #box-buttons .left a:hover .box .sub{ }
+	#box #sub-box #box-buttons .right{ }
+	#box #sub-box #box-buttons .right a{ }
+	#box #sub-box #box-buttons .right a .box{ max-width:none;  }
+	#box #sub-box #box-buttons .right a .box .title{  }
+	#box #sub-box #box-buttons .right a .box .sub{  }
+	#box #sub-box #box-buttons .right a:hover{ }
+	#box #sub-box #box-buttons .right a:hover .box{ }
+	#box #sub-box #box-buttons .right a:hover .box .title{  }
+	#box #sub-box #box-buttons .right a:hover .box .sub{ }
+}
+
+/*  
+ Wide Mobile Layout:480px.
+ Gutters:24px.
+ Outer margins:22px.
+ Inherits styles from:Default Layout, Mobile Layout.
+ 
+ //position:relative;
+*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+	.splash{}
+	#box{ margin-top:0; }
+	#box #sub-box{ margin-top:0%; }
+	#box #sub-box #box-logo{ }
+	#box #sub-box #box-logo img{}
+	#box #sub-box #box-tel{ }
+	#box #sub-box #box-tel ul{ margin: 0 auto; }
+	#box #sub-box #box-tel ul li{ margin:0px; }
+	#box #sub-box #box-tel ul li a{ }
+	#box #sub-box #box-tel ul li a:hover{ }
+	#box #sub-box #box-tel ul li a h3{  }
+	#box #sub-box #box-tel ul li a h4{ }
+	#box #sub-box #box-buttons{  }
+	#box #sub-box #box-buttons .item{ }
+	#box #sub-box #box-buttons .item a{ }
+	#box #sub-box #box-buttons .item a .box{ }
+	#box #sub-box #box-buttons .item a .box .title{  }
+	#box #sub-box #box-buttons .item a .box .sub{ }
+	#box #sub-box #box-buttons .item a:hover{ }
+	#box #sub-box #box-buttons .item a:hover .box{ }
+	#box #sub-box #box-buttons .item a:hover .box .title{ }
+	#box #sub-box #box-buttons .item a:hover .box .sub{  }
+	#box #sub-box #box-buttons .left{ }
+	#box #sub-box #box-buttons .left a{ }
+	#box #sub-box #box-buttons .left a .box{ max-width:none;  }
+	#box #sub-box #box-buttons .left a .box .title{  }
+	#box #sub-box #box-buttons .left a .box .sub{  }
+	#box #sub-box #box-buttons .left a:hover{ }
+	#box #sub-box #box-buttons .left a:hover .box{ }
+	#box #sub-box #box-buttons .left a:hover .box .title{  }
+	#box #sub-box #box-buttons .left a:hover .box .sub{ }
+	#box #sub-box #box-buttons .right{ }
+	#box #sub-box #box-buttons .right a{ }
+	#box #sub-box #box-buttons .right a .box{ max-width:none;  }
+	#box #sub-box #box-buttons .right a .box .title{  }
+	#box #sub-box #box-buttons .right a .box .sub{  }
+	#box #sub-box #box-buttons .right a:hover{ }
+	#box #sub-box #box-buttons .right a:hover .box{ }
+	#box #sub-box #box-buttons .right a:hover .box .title{  }
+	#box #sub-box #box-buttons .right a:hover .box .sub{ }
+}
+
+
+
