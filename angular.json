@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Strog2020": {
+    "strog2020": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Strog2020",
+            "outputPath": "dist/strog2020",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,13 +28,18 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/owl.carousel/dist/assets/owl.carousel.css",
-              "node_modules/owl.carousel/dist/assets/owl.theme.default.css",
+              "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
+              "node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
+              "node_modules/@fortawesome/fontawesome-free/scss/regular.scss",
+              "node_modules/@fortawesome/fontawesome-free/scss/brands.scss",
+              "node_modules/angular-bootstrap-md/assets/scss/bootstrap/bootstrap.scss",
+              "node_modules/angular-bootstrap-md/assets/scss/mdb.scss",
+              "node_modules/animate.css/animate.css",
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.js",
-              "node_modules/owl.carousel/dist/owl.carousel.js"
+              "node_modules/chart.js/dist/Chart.js",
+              "node_modules/hammerjs/hammer.min.js"
             ]
           },
           "configurations": {
@@ -71,18 +76,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Strog2020:build"
+            "browserTarget": "strog2020:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Strog2020:build:production"
+              "browserTarget": "strog2020:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Strog2020:build"
+            "browserTarget": "strog2020:build"
           }
         },
         "test": {
@@ -119,18 +124,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Strog2020:serve"
+            "devServerTarget": "strog2020:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Strog2020:serve:production"
+              "devServerTarget": "strog2020:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "Strog2020",
+  "defaultProject": "strog2020",
   "cli": {
     "analytics": false
   }

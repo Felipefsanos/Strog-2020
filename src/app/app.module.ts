@@ -1,24 +1,22 @@
-import { SharedModule } from './shared/shared.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { NavbarComponent } from './navbar/navbar.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BannerComponent } from './banner/banner.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [	
     AppComponent,
-    NavbarComponent,
-      BannerComponent
+      NavbarComponent,
+      CarouselComponent
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    SharedModule
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

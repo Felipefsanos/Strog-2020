@@ -1,19 +1,32 @@
-<mat-toolbar color="primary">
-  <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
-    </button> -->
-  <span>LOGO</span>
-  <span class="example-spacer"></span>
-  <button mat-icon-button class="example-icon favorite-icon" matTooltip="Cardápio">
-    <mat-icon>menu_book</mat-icon>
-  </button>
-  <button mat-icon-button class="example-icon" matTooltip="Promoções">
-    <mat-icon>attach_money</mat-icon>
-  </button>
-  <button mat-icon-button class="example-icon" matTooltip="Local de entrega">
-    <mat-icon>local_shipping</mat-icon>
-  </button>
-  <button mat-icon-button class="example-icon" matTooltip="Programa de fidelidade">
-    <mat-icon>loyalty</mat-icon>
-  </button>
-</mat-toolbar>
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark cyan" [containerInside]="false">
+
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Navbar</a></mdb-navbar-brand>
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>
+          <mdb-icon fas icon="truck"></mdb-icon> 
+          Delivery
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>
+          <mdb-icon fas icon="store"></mdb-icon> 
+          Lojas
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>
+          <mdb-icon fas icon="user-alt"></mdb-icon> 
+          Contato
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>
+          <mdb-icon fas icon="book-open"></mdb-icon> 
+          Sobre nós
+        </a>
+      </li>
+    </ul>
+
+</mdb-navbar>
