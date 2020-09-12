@@ -1,4 +1,12 @@
 .circle-select{
     border: 1px solid black;
     border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    min-width: 45px;
+    min-height: 45px;
+}
+
+p.circle-select-text{
+    margin: 0 !important;
 }

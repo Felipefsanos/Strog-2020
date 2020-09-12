@@ -8,6 +8,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { SelectComponent } from './content/select/select.component';
+import { FlexLayoutModule } from '@angular/flex-layout/typings/module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SelectComponent } from './content/select/select.component';
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
