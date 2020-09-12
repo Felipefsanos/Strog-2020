@@ -8,7 +8,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { SelectComponent } from './content/select/select.component';
-import { FlexLayoutModule } from '@angular/flex-layout/typings/module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
