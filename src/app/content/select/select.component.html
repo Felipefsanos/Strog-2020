@@ -1,38 +1,63 @@
 <div fxLayout="row wrap" fxLayoutAlign="space-evenly center" class="p-3">
-  <div fxLayout="row" fxLayoutAlign="space-between center" fxFlex>
-    <div fxFlex="noshrink" fxLayout="column" fxLayoutAlign="center center">
+
+  <div fxLayout="row" fxLayoutAlign="space-around center" fxFlex>
+
+
+    <div class="circle-container" fxFlex="noshrink" fxLayout="column" fxLayoutAlign="center center" fxFlex="50" 
+    (mouseenter)="hamburgerAnimation = true"
+    (mouseleave)="hamburgerAnimation = false">
       <div class="circle-select p-4" fxLayout="column" fxLayoutAlign="center center">
-        <div class="circle-select-text d-flex align-items-center">
-          <i class="fas fa-hamburger fa-1x"></i>
+        <div class="circle-select-text d-flex align-items-center"
+          [ngClass]="{'animate__animated animate__flip': hamburgerAnimation }" >
+          <i class="fas fa-hamburger fa-2x"></i>
         </div>
       </div>
-      <p>Cardápio</p>
+      <span class="text-center">Cardápio</span>
     </div>
-    <div fxFlex="noshrink" fxLayout="column" fxLayoutAlign="center center">
+
+
+    <div class="circle-container" fxFlex="noshrink" fxLayout="column" fxLayoutAlign="center center" fxFlex="50"
+    (mouseenter)="dolarAnimation = true"
+    (mouseleave)="dolarAnimation = false">
       <div class="circle-select p-4" fxLayout="column" fxLayoutAlign="center center">
-        <div class="circle-select-text d-flex align-items-center">
-          <i class="fas fa-hamburger fa-1x"></i>
+        <div class="circle-select-text d-flex align-items-center"
+        [ngClass]="{'animate__animated animate__rotateIn': dolarAnimation }">
+          <i class="fas fa-dollar-sign fa-2x"></i>
         </div>
       </div>
-      <p>Cardápio</p>
+      <span class="text-center">Promoções</span>
     </div>
+
+
   </div>
-  <div fxLayout="row" fxLayoutAlign="space-between center" fxFlex>
-    <div fxFlex="noshrink" fxLayout="column" fxLayoutAlign="center center">
+
+
+  <div fxLayout="row" fxLayoutAlign="space-around center" fxFlex>
+
+    <div class="circle-container" fxLayout="column" fxLayoutAlign="center center" fxFlex="50"
+    (mouseenter)="truckAnimation = true"
+    (mouseleave)="truckAnimation = false">
       <div class="circle-select p-4" fxLayout="column" fxLayoutAlign="center center">
-        <div class="circle-select-text d-flex align-items-center">
-          <i class="fas fa-hamburger fa-1x"></i>
+        <div class="circle-select-text d-flex align-items-center"
+        [ngClass]="{'animate__animated animate__lightSpeedInLeft': truckAnimation }">
+          <i class="fas fa-truck fa-2x"></i>
         </div>
       </div>
-      <p>Cardápio</p>
+      <span class="text-center">Área Entrega</span>
     </div>
-    <div fxFlex="noshrink" fxLayout="column" fxLayoutAlign="center center">
+
+    <div class="circle-container" fxLayout="column" fxLayoutAlign="center center" fxFlex="50"
+    (mouseenter)="heartAnimation = true"
+    (mouseleave)="heartAnimation = false">
       <div class="circle-select p-4" fxLayout="column" fxLayoutAlign="center center">
-        <div class="circle-select-text d-flex align-items-center">
-          <i class="fas fa-hamburger fa-1x"></i>
+        <div class="circle-select-text d-flex align-items-center"
+        [ngClass]="{'animate__animated animate__heartBeat': heartAnimation }">
+          <i class="fas fa-heart fa-2x"></i>
         </div>
       </div>
-      <p>Cardápio</p>
+      <span class="text-center">Fidelidade</span>
     </div>
+
   </div>
+
 </div>

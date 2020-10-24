@@ -1,10 +1,19 @@
+.circle-container {
+    cursor: pointer;
+}
+
 .circle-select{
-    border: 1px solid black;
+    color: white;
+    border: none;
     border-radius: 50%;
-    // width: 15vw;
-    // height: 15vw;
+    width: 4.5rem;
+    height: 4.5rem;
     min-width: 45px;
     min-height: 45px;
+    background-color: red;
+    -webkit-box-shadow: 0px 0px 63px -5px rgba(247,149,30,1);
+    -moz-box-shadow: 0px 0px 63px -5px rgba(247,149,30,1);
+    box-shadow: 0px 0px 63px -5px rgba(247,149,30,1);
 }
 
 p.circle-select-text{

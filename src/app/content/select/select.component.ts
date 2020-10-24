@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SelectComponent implements OnInit {
 
+  hamburgerAnimation = false;
+  dolarAnimation = false;
+  truckAnimation = false;
+  heartAnimation = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  teste(event: MouseEvent){
+    this.hamburgerAnimation = !this.hamburgerAnimation;
   }
 
 }

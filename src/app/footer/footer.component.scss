@@ -1,1 +1,17 @@
+footer {
+    bottom: 0;
+    width: 100%;
 
+    p{
+        color: white;
+    }
+}
+
+.social-networks-icons {
+    font-size: 1rem;
+    color: white;
+}
+
+div.social-networks > a {
+    margin: 5px;
+}
